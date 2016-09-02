@@ -29,6 +29,7 @@ public class MyAdapter extends BaseAdapter {
     LayoutInflater inflater;
     List<ItemBean> beanList;
 
+
     public MyAdapter(Context context,List<ItemBean> list) {
         inflater = LayoutInflater.from(context);
         beanList = list;
